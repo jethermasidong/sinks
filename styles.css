@@ -5,15 +5,44 @@ body {
 
 header {
     background-color: #F2E7D5;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: center;
-    padding: 5px 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(173, 170, 170, 0.76);
+    justify-content: center;
+    height: 40px;
+    
+}
+
+nav {
+    background-color: #F2E7D5;
+    height: 40px; 
+    justify-content: center;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px; 
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #555;
 }
 
 h1 { 
     font-family: 'Merriweather', serif;
     text-shadow: 2px 1px rgb(32, 30, 30);
+    margin: 0; 
+    font-size: 2rem;
+    line-height: 60px; 
 }
 
 h2 {
@@ -25,6 +54,7 @@ p {
     font-family: 'Merriweather', serif;
     font-size: 1rem;
 }
+
 main {
     padding: 10px;
     display: flex;
@@ -86,4 +116,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    height: 40px;
 }
