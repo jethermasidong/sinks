@@ -13,11 +13,12 @@ header {
 
 h1 { 
     font-family: 'Merriweather', serif;
-    text-shadow: 2px 1px rgb(155, 154, 154);
+    text-shadow: 2px 1px rgb(32, 30, 30);
 }
 
 h2 {
-    font-family: 'Merriweather', serif;  
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 1px gray;
 }
 
 p {
