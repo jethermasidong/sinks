@@ -33,14 +33,14 @@ nav a {
     padding: 10px 15px;
     font-family: 'Merriweather', serif;
     font-size: 0.8rem; 
-    margin: 0 5px;
+    margin: 0px;
     white-space: nowrap;
 }
 
 @media (max-width: 768px) {
     nav {
-        flex-wrap: nowrap;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
         overflow-x: auto;
     }
 
