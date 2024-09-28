@@ -16,20 +16,22 @@ header {
 nav {
     background-color: #F2E7D5;
     height: 40px; 
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 0;
     display: flex;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
     text-decoration: none;
     color: #000000;
-    padding: 0 15px; 
+    padding: 0 20px; 
     font-family: 'Merriweather', serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
 }
 
 
