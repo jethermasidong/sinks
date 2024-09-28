@@ -1,14 +1,13 @@
 body {
     margin: 0;
-    background-color: #F0F0F0;
+    background-color: #bbb7b7;
 }
 
 header {
-    background-color: #F2E7D5;
     margin-bottom: 10px;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(173, 170, 170, 0.76);
+    box-shadow: 0 4px 6px rgba(3, 3, 3, 0.76);
     justify-content: center;
     height: 40px;
     
@@ -27,19 +26,16 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     padding: 0 15px; 
     font-family: 'Merriweather', serif;
     font-size: 1rem;
 }
 
-nav a:hover {
-    color: #555;
-}
 
 h1 { 
     font-family: 'Merriweather', serif;
-    text-shadow: 2px 1px rgb(32, 30, 30);
+    text-shadow: 2px 2px rgb(126, 122, 122);
     margin: 0; 
     font-size: 2rem;
     line-height: 60px; 
@@ -110,7 +106,6 @@ main {
 }
 
 footer {
-    background-color: #F2E7D5;
     text-align: center;
     padding: 10px;
     position: relative;
