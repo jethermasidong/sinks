@@ -1,18 +1,18 @@
+* {
+    box-sizing: border-box; 
+}
+
 body {
     margin: 0;
     background-color: #bbb7b7;
-    overflow-x:hidden;
 }
 
 header {
+    width: 100%; 
     margin-bottom: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     box-shadow: 0 4px 6px rgba(3, 3, 3, 0.76);
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-    background-color: #c7e4e4;
 }
 
 nav {
@@ -22,9 +22,9 @@ nav {
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    overflow: hidden;
     justify-content: space-around;
-    width: 100%;
+    overflow: hidden; 
+    width: 100%; 
 }
 
 nav a {
@@ -33,14 +33,14 @@ nav a {
     padding: 10px 15px;
     font-family: 'Merriweather', serif;
     font-size: 0.8rem; 
-    margin: 0px;
+    margin: 0 5px;
     white-space: nowrap;
 }
 
 @media (max-width: 768px) {
     nav {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
         overflow-x: auto;
     }
 
@@ -128,9 +128,9 @@ main {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 60px;
 }
